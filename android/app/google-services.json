@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1045001737768",
+    "project_id": "repore-agent",
+    "storage_bucket": "repore-agent.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045001737768:android:46ae66fe6596b40fd0c71d",
+        "android_client_info": {
+          "package_name": "com.promptcomputers.repore_agent"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoEpsYPGhCYW21dQFGLSeFx8qfbTHdqO4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
