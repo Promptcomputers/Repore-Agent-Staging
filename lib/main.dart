@@ -38,7 +38,7 @@ Future<void> main() async {
       [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
   // await dotenv.load(fileName: '.env');
   FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
-  await initializeCore(environment: Environment.prod);
+  await initializeCore(environment: Environment.dev);
   FirebaseMessaging.onBackgroundMessage(backgroundHandler);
   await flutterLocalNotificationsPlugin
       .resolvePlatformSpecificImplementation<
@@ -211,7 +211,7 @@ class _MyAppState extends State<MyApp> {
         return MaterialApp.router(
           routerConfig: goRouter,
           debugShowCheckedModeBanner: false,
-          title: 'Repore Agent',
+          title: 'Repore Agent Staging',
           theme: ThemeData(
             textTheme: GoogleFonts.interTextTheme(
               Theme.of(context).textTheme,
